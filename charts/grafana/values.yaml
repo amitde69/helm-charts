@@ -519,9 +519,9 @@ datasources:
  datasources.yaml:
    apiVersion: 1
    datasources:
-   - name: Prometheus
+   - name: vrp1
      type: prometheus
-     url: http://prometheus-prometheus-server
+     url: http://prometheus-prometheus-server.monitoring.svc.cluster.local
      access: proxy
      isDefault: true
 
